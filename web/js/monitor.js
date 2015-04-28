@@ -2,18 +2,15 @@
  * Created by Оксана и Алексей on 04.04.15.
  */
 
-$(document).ready(function () {
 
-    setInterval( monitor , 5000);
+var myDataRef = new Firebase('https://sweltering-heat-5744.firebaseio.com/');
 
-    function monitor() {
-        $.ajax({
-            url: document.location,
-            dataType: 'json',
-            success: function (data) {
-                if (data.html) $("#box").prepend(data.html);
-            }
-        });
-    }
-
+myDataRef.on('child_added', function(snapshot) {
+    $.ajax({
+        url: document.location,
+        dataType: 'json',
+        success: function (data) {
+            if (data.html) $("#box").prepend(data.html);
+        }
+    });
 });
