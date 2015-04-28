@@ -35,3 +35,6 @@ $this->params['breadcrumbs'][] = $this->title;
     ]); ?>
 
 </div>
+<?php
+$this->registerJs("var myDataRef = new Firebase('https://sweltering-heat-5744.firebaseio.com/');myDataRef.push({time: '".time()."'});");
+?>
