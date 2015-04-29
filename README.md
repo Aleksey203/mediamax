@@ -1,6 +1,6 @@
 Реализация проекта "Рабочий стол"
 
-Демо: http://aleksey203.tmp.fstest.ru/
+Демо: http://berlinsky.96.lt/
 
 Техзадание
 
