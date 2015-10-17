@@ -1,6 +1,6 @@
 Реализация проекта "Рабочий стол"
 
-Демо: http://berlinsky.96.lt/
+Демо: http://test1.berlinsky.ru/
 
 логин Alex
 пароль 123456
