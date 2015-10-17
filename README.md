@@ -3,6 +3,7 @@
 Демо: http://test1.berlinsky.ru/
 
 логин Alex
+
 пароль 123456
 
 Техзадание
